@@ -31,6 +31,7 @@ const getNotes = () =>
     headers: {
       'Content-Type': 'application/json',
     },
+    
   });
 
 const saveNote = (note) =>
@@ -152,6 +153,7 @@ const renderNoteList = async (notes) => {
     }
 
     return liEl;
+  
   };
 
   if (jsonNotes.length === 0) {
@@ -168,6 +170,8 @@ const renderNoteList = async (notes) => {
   if (window.location.pathname === '/notes') {
     noteListItems.forEach((note) => noteList[0].append(note));
   }
+
+  
 };
 
 // Gets notes from the db and renders them to the sidebar

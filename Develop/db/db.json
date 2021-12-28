@@ -1,18 +1,12 @@
 {
-  "notesArray": [
+  "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
+      "title": "Another Test Title 6",
+      "text": "Some more test text 6"
     },
     {
-      "voter_id": 8,
-      "candidate_id": 5,
-      "id": "1"
-    },
-    {
-      "title": "Another Test Title",
-      "text": "Some more test text",
-      "id": "2"
+      "title": "Another Test Title 3",
+      "text": "Some more test text 3"
     }
   ]
 }
