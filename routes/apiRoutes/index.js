@@ -1,13 +1,14 @@
 const path = require('path');
 const router = require('express').Router();
 //const { returnNotes } = require('../../db/db.json');
-const notes = require('../../db/db.json');
+const { notes } = require('../../db/db');
 const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 
 router.get('/notes', (req, res) => {
   
-  res.json(notes);
+  
+  res.json({ notes });
 });
 
 router.post('/notes', (req, res) => {
@@ -18,18 +19,19 @@ router.post('/notes', (req, res) => {
   
 });
 
-router.delete('/notes/:id', (req, res) => {
+/*router.delete('/notes/:id', (req, res) => {
   
-});
+});*/
 
 function createNewNote(body, notes) {
-  console.log(notes)
+  
   const note = body;
   notes.push(note); 
   fs.writeFileSync(
     path.join(__dirname, '../../db/db.json'),
     JSON.stringify({ notes }, null, 2) 
   );
+  console.log(notes);
   return note;
 };
 

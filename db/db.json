@@ -35,9 +35,19 @@
       "id": "6"
     },
     {
-      "title": "d",
-      "text": "d",
+      "title": "Pharmacy",
+      "text": "Get Rx",
       "id": "7"
+    },
+    {
+      "title": "Karate Class",
+      "text": "7:00pm",
+      "id": "8"
+    },
+    {
+      "title": "Ballet Class",
+      "text": "6:00 - 6:45pm",
+      "id": "9"
     }
   ]
 }
