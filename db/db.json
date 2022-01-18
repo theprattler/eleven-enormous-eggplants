@@ -1,0 +1,38 @@
+{
+  "notes": [
+    {
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "Big Test",
+      "text": "Test text area",
+      "id": "1"
+    },
+    {
+      "title": "Eat Dinner",
+      "text": "With the in-laws",
+      "id": "2"
+    },
+    {
+      "title": "Shop",
+      "text": "Go to grocery store",
+      "id": "3"
+    },
+    {
+      "title": "Work Meeting",
+      "text": "Meet with the CEO",
+      "id": "4"
+    },
+    {
+      "title": "Party",
+      "text": "Like it's 1999",
+      "id": "5"
+    },
+    {
+      "title": "Sleep",
+      "text": "Until dawn",
+      "id": "6"
+    }
+  ]
+}
